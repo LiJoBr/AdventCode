@@ -1,0 +1,5 @@
+name: adventcode
+dependencies:
+  - pandas >= 2.0
+  - ipykernel >= 6.25
+
