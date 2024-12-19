@@ -1,0 +1,71 @@
+min 3A + B
+
+onder 
+XA = 94A
+YA = 34A
+XB = 22B
+YB = 67B
+
+
+8400 = XA + XB
+5400 = YA + YB
+
+
+----
+
+8400 = 94A + 22B
+5400 = 34A + 67B
+
+----
+
+22B = 8400 - 94A
+B = (8400 - 94A)/22
+
+5400 = 34A + 67*((8400 - 94A)/22)
+
+5400 = 34A + 562800/22 - 6298/22A
+
+444000 = 5550 A
+
+A = 80
+
+
+
+
+-------
+NA = 3
+NB = 1
+LX = 8400
+LY = 5400
+AX = 94
+AY = 34
+BX = 22
+BY = 67
+
+
+Costs = NA * A + NB * B
+
+LX = AX* A +  BX * B
+LY = AY * A + BY * B
+
+B = (LX - AX * A)/BX
+
+LY = AY * A + BY * ((LX - AX * A)/BX)
+
+LY = AY * A + BY * LX / BX - (BY * AX * A) / BX
+
+LY - BY * LX / BX = AY * A - BY * AX / BX * A = (AY - BY * AX / BX) * A
+
+A = (LY - BY * LX / BX) / ((AY - BY * AX / BX))
+
+A = (LY * BX - BY * LX) / (AY * BX - BY * AX)
+
+
+
+ 
+
+ 
+
+
+
+
